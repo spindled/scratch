@@ -35,5 +35,6 @@ def yieldme
 	print "1. Enter method. "
 	yield
 	print "2. Exit method."
+	puts
 end
 yieldme {print "2. Enter block. "}
