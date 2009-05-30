@@ -37,4 +37,4 @@ def yieldme
 	print "2. Exit method."
 	puts
 end
-yieldme {print "2. Enter block. "}
+yieldme {print "2. Enter block from yield. "}
